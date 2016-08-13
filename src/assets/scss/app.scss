@@ -1,15 +1,29 @@
 @import 'settings';
 @import 'foundation-emails';
 
-.block {
-  
-  width: 90%;
-}
 
 .header {
-  background-color: #1FC28F;
   h1 {
     color: $white;
     text-transform: uppercase;
+    padding: 16px;
   }
+}
+
+.questions {
+  h4 {
+    color: $green-color;
+  }
+}
+
+.behaviors {
+  p {
+    strong {
+      color: $green-color;
+    }
+
+  }
+}
+p {
+  padding: 8px 32px;
 }
