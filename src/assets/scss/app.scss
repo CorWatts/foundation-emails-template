@@ -2,28 +2,35 @@
 @import 'foundation-emails';
 
 
-.header {
-  h1 {
-    color: $white;
-    text-transform: uppercase;
-    padding: 16px;
+.body {
+  .header {
+    h1 {
+      color: $white;
+      text-transform: uppercase;
+      padding: 16px;
+    }
   }
-}
 
-.questions {
-  h4 {
-    color: $green-color;
-  }
-}
-
-.behaviors {
-  p {
-    strong {
+  .questions {
+    h4 {
       color: $green-color;
     }
-
   }
-}
-p {
-  padding: 8px 32px;
+
+  .behaviors {
+    p {
+      strong {
+        color: $green-color;
+      }
+
+    }
+  }
+
+  .footer {
+    background-color: $body-background;
+  }
+
+  p {
+    padding: 8px 32px;
+  }
 }
