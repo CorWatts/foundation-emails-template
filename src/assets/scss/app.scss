@@ -7,17 +7,15 @@
     h1 {
       color: $white;
       text-transform: uppercase;
-      padding: 16px;
     }
   }
-
   .questions {
     h4 {
       color: $green-color;
     }
   }
-
   .behaviors {
+    margin-bottom: 8px;
     p {
       strong {
         color: $green-color;
@@ -25,19 +23,17 @@
 
     }
   }
-
   .footer {
     background-color: $body-background;
   }
-
   p {
-    padding: 0px 32px 4px 32px;
+    padding: 0px 8px 4px 8px;
   }
   h2 {
-    padding: 24px 16px 8px 16px;
+    padding: 24px 8px 8px 8px;
   }
   h4{
-    padding: 0px 32px;
+    padding: 0px 8px;
     margin-bottom: 5px;
   }
 }
